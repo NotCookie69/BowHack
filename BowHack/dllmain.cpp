@@ -186,7 +186,6 @@ BOOL CALLBACK DlgProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		}
 		else if (wParam == IDC_LINK)
 		{
-			ShellExecute(0, 0, L"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P29NNVX98FH2Y", 0, 0, SW_SHOW);
 			ShellExecute(0, 0, L"https://www.elitepvpers.com/forum/flyff-hacks-bots-cheats-exploits-macros/4622307-release-source-flyff-webzen-bow-hack.html", 0, 0, SW_SHOW);
 			break;
 		}
